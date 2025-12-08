@@ -9,21 +9,6 @@ export default function Home() {
         <div className="relative min-h-screen w-full overflow-hidden">
             {/* Spline 3D Background */}
             <div className="fixed inset-0 z-0 h-full w-full">
-                <Suspense
-                    fallback={
-                        <div className="absolute inset-0 bg-linear-to-br from-orange-900 via-orange-700 to-orange-500" />
-                    }
-                >
-                    {/* Try using Spline React component first, fallback to iframe */}
-                    <div className="absolute inset-0">
-                        <iframe
-                            src="https://my.spline.design/2b28d78f-57b4-4de4-b383-672828ef4c11"
-                            className="h-full w-full border-0"
-                            style={{ pointerEvents: "none" }}
-                            title="Spline 3D Background"
-                        />
-                    </div>
-                </Suspense>
                 {/* Overlay for better text readability */}
                 <div className="absolute inset-0 bg-black/40 backdrop-blur-[1px]" />
 
