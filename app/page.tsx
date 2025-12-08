@@ -170,9 +170,9 @@ export default function Home() {
                                 ease: "easeIn",
                                 delay: 0.1,
                             }}
-                            className="mb-6 text-5xl font-bold tracking-tight text-white drop-shadow-lg md:text-7xl lg:text-8xl"
+                            className="mb-6 text-5xl font-bold tracking-tight text-white drop-shadow-lg leading-tight md:text-7xl lg:text-8xl"
                         >
-                            Enigma Edge
+                            EnigmaEdge
                             <span className="block text-transparent bg-clip-text bg-linear-to-r from-orange-600 via-orange-400 to-orange-200">
                                 Engineering
                             </span>
@@ -409,8 +409,8 @@ export default function Home() {
                 >
                     <div className="mx-auto max-w-7xl text-center text-gray-400">
                         <p>
-                            © {new Date().getFullYear()} Enigma Edge
-                            Engineering. All rights reserved.
+                            © {new Date().getFullYear()} EnigmaEdge Engineering.
+                            All rights reserved.
                         </p>
                     </div>
                 </motion.footer>
